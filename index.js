@@ -22,9 +22,9 @@ const NEZHA_SERVER = process.env.NEZHA_SERVER || '';
 const NEZHA_KEY = process.env.NEZHA_KEY || '';             
 const DOMAIN = process.env.DOMAIN || 'your-domain.com';    
 const AUTO_ACCESS = process.env.AUTO_ACCESS || false;      
-const SUB_PATH = process.env.SUB_PATH || 'vercel';           
-const NAME = process.env.NAME || 'Vercel';                       
-const PORT = process.env.PORT || 3000;                    
+const SUB_PATH = process.env.SUB_PATH || 'music';           
+const NAME = process.env.NAME || 'music';                       
+const PORT = process.env.PORT || 8080;                    
 
 // NZ-Agent
 const AGENT_VERSION = 'nodejs-9.9.9';
